@@ -1,0 +1,90 @@
+
+/* background color for heading*/
+.heading {
+    background-color: blue;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+    color: white;
+}
+
+/* style for the paragraph */
+
+.paragraph {
+    
+    padding: 10px;
+    font-size: 16px;
+    
+}
+
+/* style for the list */
+ 
+.list {
+    border-color: black;
+    border: 1px solid;
+    padding : 10px;
+    padding-bottom: 2px ; 
+   max-width: 600px;
+    margin-top: 20px;
+}
+
+.list li {
+    list-style-position: inside; /* Keep list item markers inside the box */
+    padding: 5px;
+}
+
+
+/* style for the button */
+.button {
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    font-size: medium;
+    border-color: white;
+    border-radius: 15px;
+}
+
+fieldset {
+    margin-top: 20px;
+    margin-right: 1000px;
+}
+
+
+#user_name {
+   margin-top: 10px;
+   padding: 3px;
+   border-radius: 5px;
+}
+
+select{
+    margin-top: 10px; 
+    padding: 3px;
+    width: 120px;
+    border-radius:5px ;
+
+}
+
+button {
+    margin-top: 5px;
+    padding: 10px;
+    color: white;
+    background-color: blue;
+    border-radius: 10px ;
+    font-size: 15px;
+    border-color: white;
+}
+
+/* media query for screens width a width less than 600 pixels */
+ @media screen and (max-width : 600px) {
+    .heading {
+        background-color: red;
+    }
+    
+ }
+
+ /* Media query for the larger secreens */
+ @media screen and (min-width : 768px) {
+   .paragraph{
+      font-size :18px;
+   }
+ }
